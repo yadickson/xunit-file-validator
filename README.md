@@ -15,16 +15,24 @@ xunit-file-validator
 
 NodeJS utility to validate xunit files and find duplicate lines
 
-**Install**
+Install
+-------
 
 ```script
 $ npm i xunit-file-validator --save-dev
 ```
 
-**Add in package.json scripts**
+Add in package.json scripts
+---------------------------
 
 ```js
 "scripts": {
   "test": "xunit-file-validator ./test-reports/junit.xml"
 }
 ```
+
+License
+-------
+
+GPL-3.0 © [Yadickson Soto](https://github.com/yadickson)
+
