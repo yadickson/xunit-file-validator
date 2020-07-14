@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- stable
+deploy:
+  provider: npm
+  email: yadickson@gmail.com
+  api_key: "${NPM_TOKEN}"
+  on:
+    tags: true
+env:
+  global:
+    secure: lSBO+bkDz/PK8dZOeQjHQk3FtnasvSEpD0+UBABTgNSmhc2aboX2u/kwdzceFdRsq02onztCctY54Vi6Ueio2ppPfCFZVHvrUXCOFWaHOFLMTlHPcki70ehZBN8FIs4IFL8VbEnFkdxEU5rRmXWR27K/rXkaZZCOk/0semN/NSZZWXfL2r9ar6pBLcHFkM751E2AAciotKbReRNfAzBMJ1TFLT4FHQ005fsucXV23zZmCX0jW5t0Oj7ZEBzjeW20Gw6p+PhTqJppaDw5/Qpnk24IZIKERj74f7orA5QiFh5yhxc5/06qEs2s/ZYggfju62WcZulr7wqvE/e3moQeSlQl7YxrURC25Es9uVYf9eFfS/rGl2hXZbo/McsQk5LgKTNwk4w/6SU4mdFYoq8mh81gPKzV9L5XTfU4UljMjvScBSrc8YLVT3pF11j8/aTSfZYPwU1LqXpDRZ3KPKsqv5CStLWIeq3zCz/8/gBY5g8jaTAZV9jK+bt0fW2Y7tyd+SG/Ou+CETTLXrQEzDcP8iyWJfG2lgCvoMm/zf5fFTfx7O3u6M2k0nQh6l+6ODtgnpIiwQXxVF/i41yeZ46wOBo8tTVKN7RHm58yLqAXu7aFYpj8pVfO81e1OJh1IlBsxBHNPdPaorjbJ7mw7XVOff8KVZP9AIpBpb4r63qRD08=
