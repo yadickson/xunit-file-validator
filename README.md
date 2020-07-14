@@ -27,7 +27,7 @@ Add in package.json scripts
 
 ```js
 "scripts": {
-  "test": "xunit-file-validator ./test-reports/junit.xml"
+  "xunit-validator": "xunit-file-validator ./test-reports/junit.xml"
 }
 ```
 
@@ -35,4 +35,3 @@ License
 -------
 
 GPL-3.0 © [Yadickson Soto](https://github.com/yadickson)
-

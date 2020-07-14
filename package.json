@@ -1,8 +1,11 @@
 {
   "name": "xunit-file-validator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "NodeJS utility to validate xunit files and find duplicate lines",
   "main": "index.js",
+  "bin": {
+    "xunit-file-validator": "index.js"
+  },
   "scripts": {
     "test": "echo \"No test specified\" && exit 0"
   },
