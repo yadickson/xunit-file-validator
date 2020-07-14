@@ -8,8 +8,8 @@ xunit-file-validator
 
 [npm-image]: https://img.shields.io/npm/v/xunit-file-validator.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/xunit-file-validator
-[travis-image]: https://img.shields.io/travis/yadickson/joi-to-swagger.svg?style=flat-square
-[travis-url]: https://travis-ci.org/yadickson/joi-to-swagger
+[travis-image]: https://img.shields.io/travis/yadickson/xunit-file-validator.svg?style=flat-square
+[travis-url]: https://travis-ci.org/yadickson/xunit-file-validator
 [download-image]: https://img.shields.io/npm/dm/xunit-file-validator.svg?style=flat-square
 [download-url]: https://npmjs.org/package/xunit-file-validator
 
